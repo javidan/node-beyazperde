@@ -1,0 +1,22 @@
+{
+  "author": "Javidan Guliyev",
+  "name": "beyazperde",
+  "description": "Scrapes beyazperde.com for searching and getting specified movie information in turkish",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/javidan/node-beyazperde.git"
+  },
+  "main": "./lib/beyazperde",
+  "keywords": [
+    "beyazperde"
+  ],
+  "dependencies": {
+    "request": "*",
+    "cheerio": "*",
+    "iconv": "*"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
